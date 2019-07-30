@@ -1,0 +1,12 @@
+#pipes and filters
+
+ls | grep file.txt
+
+
+#filters
+#print file zise
+ls test.txt  | awk {'print $5'}
+
+
+
+
