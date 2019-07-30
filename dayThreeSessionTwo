@@ -1,0 +1,12 @@
+
+#execute command using shell script
+
+fileList=`ls /home/parallels`
+
+isFileExist=`echo $fileList | grep start`
+
+if [ -z "$isFileExist" ];
+then
+echo "File exists"
+elsif
+echo "File Doesn't Exist"
