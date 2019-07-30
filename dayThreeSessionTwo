@@ -5,7 +5,7 @@ fileList=`ls /home/parallels`
 
 isFileExist=`echo $fileList | grep start`
 
-if [ -z "$isFileExist" ];
+if [ !-z "$isFileExist" ];
 then
 echo "File exists"
 elsif
